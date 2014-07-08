@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 group :production do
-	gem 'therbyracer'
+	gem 'therubyracer'
 end
 
 # Use jquery as the JavaScript library
