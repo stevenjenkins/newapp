@@ -10,7 +10,7 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 set :use_sudo, false
 
 # initialize rvm by using a login shell
-default_run_options[:shell] = '/bin/bash--login'
+default_run_options[:shell] = '/bin/bash --login'
 
 role :web, "104.131.230.81"
 role :app, "104.131.230.81"
