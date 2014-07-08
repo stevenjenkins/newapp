@@ -1,3 +1,4 @@
+require 'bundler/capistrano' # to force gems to be loaded
 load 'deploy/assets'
 
 set :application, "synaptian.com"
