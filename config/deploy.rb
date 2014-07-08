@@ -1,3 +1,6 @@
+$:.unshift(:File.expand_path('./lib', ENV['rvm_path']))
+require 'rvm/capistrano'
+
 require 'bundler/capistrano' # to force gems to be loaded
 load 'deploy/assets'
 
